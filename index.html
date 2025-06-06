@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E commerce website</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>E-commerce Website</title>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -12,6 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
@@ -22,73 +23,81 @@
           <div class="topnavbar-item">
             <p>
               Summer Sale For All Swim Suits And Free Express Delivery - OFF
-              50%! <a href="wd">ShopNow</a>
+              50%! <a href="#">Shop Now</a>
             </p>
           </div>
-          <div class="topnavbar-item">
-            <button class="topnav-btn">
+          <div class="topnavbar-item language-selector">
+            <button id="lang-btn" class="topnav-btn">
               English <i class="fa-solid fa-chevron-down"></i>
             </button>
+            <div id="lang-dropdown" class="dropdown">
+              <p>Russian</p>
+              <p>Uzbek</p>
+            </div>
           </div>
         </div>
       </div>
+
       <div class="bottomnavbar">
         <div class="bottomnavbar-container">
-                    <div class="bottomnavbar-item"><h2>Exclusive</h2></div>
-        <div class="bottomnavbar-item">
+          <div class="bottomnavbar-item"><h2>Exclusive</h2></div>
+          <div class="bottomnavbar-item">
             <ul class="bottomnavbar-list">
-                <li>Home</li>
-                <li>Contact</li>
-                <li>About</li>
-                <li>Sign Up</li>
+              <li>Home</li>
+              <li>Contact</li>
+              <li>About</li>
+              <li>Sign Up</li>
             </ul>
-        </div>
-        <div class="bottomnavbar-item">
+          </div>
+          <div class="bottomnavbar-item">
             <div class="bottomnavbar-input">
-                <input type="text" placeholder="What are you looking for?" />
-                <img src="./assets/Component 2.png" alt="">
+              <input type="text" placeholder="What are you looking for?" />
+              <img src="./assets/Component 2.png" alt="" />
             </div>
-            <img src="./assets/Wishlist.png" alt="">
-            <img src="./assets/Cart1.png" alt="">
-        </div>
+            <img src="./assets/Wishlist.png" alt="" />
+            <img src="./assets/Cart1.png" alt="" />
+          </div>
         </div>
       </div>
+
       <div class="mainsection">
         <div class="mainsection-container">
-            <div class="sidebar">
-                <pre>Woman’s Fashion        <i class="fa-solid fa-chevron-right"></i></pre>
-                <pre>Men’s Fashion             <i class="fa-solid fa-chevron-right"></i></pre>
-                <p>Electronics</p> 
-                <p>Home & Lifestyle</p>
-                <p>Medicine</p>
-                <p>Sports & Outdoor</p>
-                <p>Baby’s & Toys</p>
-                <p>Groceries & Pets</p>
-                <p>Health & Beauty</p>
+          <div class="sidebar">
+            <pre>Woman’s Fashion        <i class="fa-solid fa-chevron-right"></i></pre>
+            <pre>Men’s Fashion             <i class="fa-solid fa-chevron-right"></i></pre>
+            <p>Electronics</p>
+            <p>Home & Lifestyle</p>
+            <p>Medicine</p>
+            <p>Sports & Outdoor</p>
+            <p>Baby’s & Toys</p>
+            <p>Groceries & Pets</p>
+            <p>Health & Beauty</p>
+          </div>
+          <div class="img-bar">
+            <div class="background">
+              <div class="img-bar-container">
+                <div class="text">
+                  <img src="./assets/header/banner_logo.png" alt="" />
+                  <h1 id="banner-title">Up to 10% off Voucher</h1>
+                  <a href="#"><span>Shop Now</span><img src="./assets/icons arrow-right.png" alt="" /></a>
+                </div>
+                <div class="picture">
+                  <img id="banner-img" src="./assets/header/banner_iphone.png" alt="" />
+                </div>
+              </div>
+              <div class="img-bar-footer">
+                <button class="slider" data-img="./assets/header/banner_iphone.png" data-title="Up to 10% off Voucher"></button>
+                <button class="slider" data-img="assets/products/gammaxx-l240-argb-1-500x500 1.png" data-title="Mega Sale is Here!"></button>
+                <button class="slider" data-img="assets/products/eos-250d-03-500x500 1.png" data-title="New Arrival Deals"></button>
+                <button class="slider" data-img="assets/products/Copa_Sense 1.png" data-title="Back to School Discount"></button>
+                <button class="slider" data-img="assets/products/ak-900-01-500x500 1.png" data-title="Special Weekend Offer"></button>
+              </div>
             </div>
-            <div class="img-bar">
-                <div class="background">
-                    <div class="img-bar-container">
-                        <div class="text">
-                            <img src="./assets/header/banner_logo.png" alt="">
-                            <h1>Up to 10% off Voucher</h1>
-                            <p><a href="dwdw">Shop Now</a><img src="./assets/icons arrow-right.png" alt=""></p>
-                        </div>
-                        <div class="picture">
-                            <img src="./assets/header/banner_iphone.png" alt="">
-                        </div>
-                </div>
-                <div class="img-bar-footer">
-                    <button class="slider"></button>
-                    <button class="slider"></button>
-                    <button class="slider"></button>
-                    <button class="slider"></button>
-                    <button class="slider"></button>
-                </div>
-                </div>
-            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
